@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+	color:white;
+	background-color:black;
+	text-align:center;
+	font-size:45px;
+}
+
+table,th,td {
+    border: 1px solid black;  
+    font-size:25px;	
+	text-align: center
+}
+
+table {
+	border-collapse:collapse;
+	width:50%
+}
+
+th {
+	height:60px;
+	background-color:cadetblue;;
+}
+
+tr {
+	height: 45px;
+	background-color:cornsilk;
+}
+
+#data {
+    margin-bottom: 10px;
+}
+
+#data input {
+	padding: 10px;
+    width: 90px;
+	background-color: darkgrey;
+}
+
+#data button {
+    padding: 10px;
+    width: 90px;
+	background-color: green;
+}
